@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Podio Task Counter</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      }
+      th {
+        white-space: nowrap;
+        text-align: right;
+        font-weight: normal;
+      }
+      td {
+        font-weight: bold;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>Due This Week</th>
+          <td><span id="this_week"></span></td>
+        </tr>
+        <tr>
+          <th>Due Next Week</th>
+          <td><span id="next_week"></span></td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td><span id="total"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+

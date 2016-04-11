@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Podio Task Counter",
+  "description": "Counts the number of Podio tasks currently listed in a page",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://podio.com/tasks*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://podio.com/tasks*"],
+      "js": ["counter.js"]
+    }
+  ],
+
+  "author": "Inggo Espinosa"
+}
