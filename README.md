@@ -4,7 +4,7 @@ Chrome extension to count tasks for Podio.
 
 ## Installation
 
-1. Clone the repository or [https://github.com/Inggo/PodioTaskCounter/archive/master.zip](download as zip) and extract somewhere.
+1. Clone the repository or [download as zip](https://github.com/Inggo/PodioTaskCounter/archive/master.zip) and extract somewhere.
 2. Load the directory as unpacked extension via [chrome://extensions]().
 3. Enable.
 
